@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ item|title }} Detail</title>
+    <style>
+      body { font-family: Arial, sans-serif; text-align: center; margin: 40px; }
+      img { max-width: 90vw; max-height: 80vh; border: 1px solid #ccc; border-radius: 8px; }
+      a { display: inline-block; margin-top: 20px; font-size: 18px; text-decoration: none; color: #007bff; }
+      a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h2>{{ item|title }}</h2>
+    <img src="{{ image_url }}" alt="{{ item }}">
+    <br>
+    <a href="/">← Back to Dropdown</a>
+</body>
+</html>
